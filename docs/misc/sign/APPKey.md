@@ -9,7 +9,7 @@
 | 783bbb7264451d82 | 2653583c8873dea268ab9386918b1d65 |      `android`       |        粉版        |           `1`           |      `android`       |    仅获取用户信息时使用(7.X及更新版本)     |
 | 57263273bc6b67f6 | a0488e488d1567960d3a765e8d129f90 |      `android`       |        粉版        |           `1`           |      `android`       |                可能来自旧版                |
 | 07da50c9a0bf829f | 25bdede4e1581c836cab73a48790ca6e |      `android`       |       概念版       |           `3`           |     `android_b`      |                                            |
-| 191c3b6b975af184 |                                  |      `android`       |       概念版       |           `3`           |     `android_b`      | 新出现, 仅获取用户信息时使用. 暂未知appsec |
+| 191c3b6b975af184 | 1673b15a09ef5e4427627f47b03a0578 |      `android`       |       概念版       |           `3`           |     `android_b`      |    仅获取用户信息时使用(7.X及更新版本)     |
 | 178cf125136ca8ea | 34381a26236dd1171185c0beb042e1c6 |      `android`       |       概念版       |           `3`           |     `android_b`      |                可能来自旧版                |
 | 7d336ec01856996b | a1ce6983bc89e20a36c37f40c4f1a0dd |      `android`       |       概念版       |           `3`           |     `android_b`      |                可能来自旧版                |
 | dfca71928277209b | b5475a8825547a4fc26c7d518eaaa02e |      `android`       |       HD 版        |           `5`           |     `android_hd`     |                                            |
@@ -31,6 +31,7 @@
 | 9a75abf7de2d8947 | 35ca1c82be6c2c242ecc04d88c735f31 |      `android`       |      BiliScan      |            ?            |          ?           |                                            |
 | aae92bc66f3edfab | af125a0d5279fd576c1b4418a3e8276d |          ?           |    PC 投稿工具     |            -            |          ?           |                                            |
 | bca7e84c2d947ac6 | 60698ba2f68e01ce44738920a0ffe768 |          ?           |       login        |            -            |          ?           |                                            |
+| h9Ejat5tFh81cq8V | BdiI92bjmZ9QRcjJBWv2EEssyjekAGKt |                      |                    |                         |                      |      bilibili游戏 web端 游戏详情页API      |
 
 注释:
 

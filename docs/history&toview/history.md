@@ -10,6 +10,8 @@
 
 注：`max`、`business`、`view_at`参数用于历史记录列表的 IFS (无限滚动)，其用法类似链表的 next 指针
 
+本接口也可以返回已失效稿件的信息
+
 **url参数：**
 
 | 参数名   | 类型 | 内容                     | 必要性 | 备注                                                         |
@@ -349,6 +351,8 @@ curl -G 'https://api.bilibili.com/x/web-interface/history/cursor' \
 
 认证方式：Cookie (SESSDATA)
 
+本接口也可以返回已失效稿件的信息
+
 **url参数：**
 
 | 参数名 | 类型 | 内容     | 必要性 | 备注    |
@@ -389,15 +393,15 @@ curl -G 'https://api.bilibili.com/x/web-interface/history/cursor' \
 | pubdate                         | num     | 稿件发布时间                   | 时间戳                                                       |
 | ctime                           | num     | 用户提交稿件的时间             | 时间戳                                                       |
 | desc                            | str     | 视频简介                       |                                                              |
-| state                           | num     | 视频状态                       | 略，见[获取视频详细信息（web端）](/video/info.md#获取视频详细信息（web端）)中的`state`备注 |
-| ~~attribute~~（仅做历史性保留） | ~~num~~ | ~~稿件属性位配置~~             | 本字段已被删除<br />~~略，见[获取视频详细信息（web端）](/video/info.md#获取视频详细信息（web端）)中的`attribute`备注~~ |
+| state                           | num     | 视频状态                       | 略，见[获取视频详细信息（web端）](../video/info.md#获取视频详细信息（web端）)中的`state`备注 |
+| ~~attribute~~（仅做历史性保留） | ~~num~~ | ~~稿件属性位配置~~             | 本字段已被删除<br />~~略，见[获取视频详细信息（web端）](../video/info.md#获取视频详细信息（web端）)中的`attribute`备注~~ |
 | duration                        | num     | 视频总计持续时长（所有分P）    | 单位为秒                                                     |
-| rights                          | obj     | 视频属性标志                   | 略，见[获取视频详细信息（web端）](/video/info.md#获取视频详细信息（web端）)中的`rights`对象 |
-| owner                           | obj     | 视频UP主信息                   | 略，见[获取视频详细信息（web端）](/video/info.md#获取视频详细信息（web端）)中的`owner`对象 |
-| stat                            | obj     | 视频状态数                     | 略，见[获取视频详细信息（web端）](/video/info.md#获取视频详细信息（web端）)中的`stat`对象 |
+| rights                          | obj     | 视频属性标志                   | 略，见[获取视频详细信息（web端）](../video/info.md#获取视频详细信息（web端）)中的`rights`对象 |
+| owner                           | obj     | 视频UP主信息                   | 略，见[获取视频详细信息（web端）](../video/info.md#获取视频详细信息（web端）)中的`owner`对象 |
+| stat                            | obj     | 视频状态数                     | 略，见[获取视频详细信息（web端）](../video/info.md#获取视频详细信息（web端）)中的`stat`对象 |
 | dynamic                         | str     | 视频同步发布的的动态的文字内容 | 无为空                                                       |
 | cid                             | num     | 视频1P cid                     |                                                              |
-| dimension                       | obj     | 视频1P分辨率                   | 略，见[获取视频详细信息（web端）](/video/info.md#获取视频详细信息（web端）)中的`dimension`对象 |
+| dimension                       | obj     | 视频1P分辨率                   | 略，见[获取视频详细信息（web端）](../video/info.md#获取视频详细信息（web端）)中的`dimension`对象 |
 | bangumi                         | obj     | 番剧/影视信息                  | 非番剧/影视无此项                                            |
 | cheese                          | obj     | 课程信息                       | 非课程无此项                                                 |
 | favorite                        | bool    | 是否已收藏                     | true：已收藏<br />false：未收藏                              |
